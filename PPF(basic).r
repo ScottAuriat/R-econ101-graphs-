@@ -1,4 +1,5 @@
-# packages to install 
+# File for Econ plots
+# packages to install ---- 
 #if packages are not installed remove the # to instal them first
 #install.packages("ggplot2")
 #install.packages("dplyr")
@@ -12,8 +13,7 @@
 #install.packages("magrittr")
 
 
-# more 
-# packages to load 
+# packages to load ----  
 library(dplyr)
 library(ggplot2)
 library(bezier)
@@ -25,7 +25,7 @@ library(gridExtra)
 library(tidyverse)
 library(magrittr)
 
-# PPF first plot 
+# PPF first plot  ----
 demand <- Hmisc::bezier(c(0, 5, 10),
                         c(10, 5, 0)) %>%
   as.data.frame()
@@ -86,6 +86,7 @@ ggplot(mapping = aes(x = x, y = y)) +
   geom_text(aes(x = 9.4, y = 2, label = "E"),col="black",size=6)+
   geom_point(aes(x=2, y=9), colour="black",size=4)+
   geom_point(aes(x=9, y=2), colour="black",size=4)
+
 
 
 
