@@ -33,6 +33,6 @@ ggplot(mapping = aes(x = x, y = y)) +
   annotate("segment", x = 3.8, xend = 4.4, y = 8, yend = 10.3,
            arrow = arrow(length = unit(1, "lines")), colour = "black",size = 1.7)
 
-z <- c(1,2,3)
+
 
 
