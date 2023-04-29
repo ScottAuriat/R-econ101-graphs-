@@ -87,4 +87,4 @@ ggplot(mapping = aes(x = x, y = y)) +
   geom_point(aes(x=2, y=9), colour="black",size=4)+
   geom_point(aes(x=9, y=2), colour="black",size=4)
 
-x <- c(1,2,3)
+x <- c(1,2,3) 
