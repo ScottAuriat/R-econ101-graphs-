@@ -12,4 +12,4 @@ ggplot(data = df) +
   geom_line(aes(x = supply, y = supply, color = "Supply")) +
   xlab("Quantity") +
   ylab("Price") +
-  ggtitle("Supply and Demand Plot")
+  ggtitle("Supply and Demand Plot") 
